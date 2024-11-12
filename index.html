@@ -3,47 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <title>Front Page of a Blog</title>
 </head>
 <body>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            min-height: 100vh;
-            line-height: 1;
-            text-rendering: optimizeSpeed;
-            font-size: 1rem;
-        }
-        div {
-            width: 60%;
-            margin: 0 auto;
-        }
-    </style>
-    <div>
-        <h1>📰 Front Page of a Blog</h1>
-        <hr/>
-        <p>
-            <blockquote>I'm not superstitious, but I am a little stitious</blockquote>
-        </p>
-        <hr/>
-        <h3>Info</h3>
-        <p>
-            Welcome!
-            Hi there, stranger! 🌟
-            I'm thrilled you've stumbled upon my little corner of the internet. 
-            Whether you're here by chance or on purpose, I'm excited to have you. 
-            This space is all about my IT journey, ideas, and a bit about myself. 
-            Feel free to explore.
-        </p>
-        <h3> Projects</h3>
-        <hr/>
-        <p>
-            <a href="https://github.com/documented-thoughts/virtual-machines">
-                Virtual Machines Labs
-            </a> 
-        </p>
+    <div class="container">
+        <div class="mx-auto w-50">
+            <h1 class="border-bottom-1">Front Page of a Blog</h1>
+            <figure class="text-start">
+                <blockquote class="blockquote">
+                  <p>I'm not superstitious, but I am a little stitious.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Someone famous in <cite title="Source Title">The Office</cite>
+                </figcaption>
+              </figure>
+            <h3 class="border-bottom-1">Info</h3>
+            <p>
+                Welcome!
+                👋, stranger!
+                I'm thrilled you've stumbled upon my little corner of the internet. 
+                Whether you're here by chance or on purpose, I'm excited to have you. 
+                This space is all about my IT journey, ideas, and a bit about myself. 
+                Feel free to explore.
+            </p>
+            <h3>Projects</h3>
+            <p>
+                <a href="https://github.com/documented-thoughts/virtual-machines">
+                    Virtual Machines Labs
+                </a>
+            </p>
+        </div>
     </div>
 </body>
 </html>
